@@ -1,0 +1,48 @@
+.btn {
+	margin-top: 15px;
+	margin-bottom: 10px;
+	padding: 10px 16px;
+	border-radius: 5px;
+	border: none;
+	color: #000;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+	background-color: rgba(47, 93, 78, 0.523);
+	color: #fff;
+}
+
+.container {
+	padding: 20px;
+}
+
+.box {
+	display: flex;
+	padding: 20px;
+	border-bottom: 1px solid grey;
+}
+
+.img-details {
+	padding-right: 10px;
+}
+
+.info-details {
+	padding: 30px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.list {
+	list-style: none;
+	display: flex;
+	padding: 0;
+	gap: 16px;
+}
+
+.additioanInfo {
+	padding: 20px;
+	border-bottom: 1px solid grey;
+}

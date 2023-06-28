@@ -1,0 +1,13 @@
+.img {
+	height: 200px;
+	padding-bottom: 12px;
+}
+.character {
+	padding-bottom: 15px;
+}
+
+.noImg {
+	background-color: grey;
+	height: 200px;
+	width: 100px;
+}

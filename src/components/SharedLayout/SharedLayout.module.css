@@ -1,0 +1,20 @@
+.header {
+	padding: 2rem;
+	box-shadow: 0px 9px 17px 0px rgba(47, 93, 78, 0.523);
+}
+
+.nav--item {
+	padding: 8px 16px;
+	border-radius: 4px;
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+	color: #000;
+	transition: background-color 0.3s, color 0.3s, color 0.3s, color 0.3s;
+}
+
+.nav--item:active,
+.nav--item:hover {
+	background-color: rgba(47, 93, 78, 0.523);
+	color: aliceblue;
+}
