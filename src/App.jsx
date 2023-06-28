@@ -9,7 +9,7 @@ const MovieDetails = lazy(() =>
 );
 const Cast = lazy(() => import('./components/Cast/Cast'));
 const Reviews = lazy(() => import('./components/Reviews/Reviews'));
-// import "./App.css";
+
 
 function App() {
   return (
