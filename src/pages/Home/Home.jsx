@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
-import { getTrending } from '../../components/services/api';
+import { getTrending } from '../../services/api';
 
 import css from './Home.module.css';
 
